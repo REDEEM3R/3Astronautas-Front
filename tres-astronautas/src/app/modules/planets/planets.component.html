@@ -1,0 +1,15 @@
+<div class="tresa-wrapper" *ngIf="esPlaneta == true" style="position: absolute;z-index:100;">
+  <div id="tresa-fuselaje">
+    <p style="color:white;">
+      Se avistó el planeta <span style="color:#b5eb39;">{{planetaVisitado}}</span> a {{ planetDetails.degree }} grados.
+    </p>
+  </div>
+  <div style="width:100%;height: 100%;position: relative;">
+      <img id="tresa-planet" class="{{planetaVisitado}}" src="{{ planetDetails.img }}" alt="">
+  </div>
+</div>
+<div class="tresa-wrapper" *ngIf="!esPlaneta" style="position: absolute;z-index:100;">
+  <p style="color: white;">El nombre ingresado no es un planeta válido.</p>
+</div>
+<app-control style="z-index:-1;"></app-control>
+x

@@ -1,0 +1,30 @@
+.main-content{
+  height: auto;
+  width: 100%;
+  background: blue;
+  position: relative;
+}
+.main-ship{
+  margin-left: 5%;
+  width: 90%;
+  background: red;
+}
+#tresa-logo{
+  position: absolute;
+  height: auto;
+  width: 250px;
+  right: 0px;
+  bottom: 0px;
+}
+#tresa-mainship{
+  width: 85%;
+  height: auto;
+}
+.background-planet{
+
+}
+.tresa-rsrc::before,
+.tresa-rsrc::after{
+  position: absolute;
+  clear: both;
+}
