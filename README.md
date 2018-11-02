@@ -1,5 +1,4 @@
-## Arrancar servicio NestJS en el puerto 3000. (Default)
-## Arrancar servicion AngularJS en el puerto 4200. (Default)
+## Arrancar el proyecto en el puerto 4200 por medio de NPM. (Default) Estando en la ruta /front/tres-astronautas
 
 Se configura un archivo `proxy.conf.json` en la raíz del front (AngularJS).
 
